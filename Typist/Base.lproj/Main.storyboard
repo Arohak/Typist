@@ -15,8 +15,8 @@
             <objects>
                 <viewController id="kRM-pB-3sI" customClass="ViewController" customModule="Typist_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KTM-yz-Byi"/>
-                        <viewControllerLayoutGuide type="bottom" id="J72-FM-XLY"/>
+                        <viewControllerLayoutGuide type="top" id="gtY-1M-S9z"/>
+                        <viewControllerLayoutGuide type="bottom" id="sdc-wf-8WS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0ca-xt-oF7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -49,9 +49,9 @@
                         <constraints>
                             <constraint firstItem="drI-8J-JIz" firstAttribute="leading" secondItem="0ca-xt-oF7" secondAttribute="leading" id="RMA-x6-hUp"/>
                             <constraint firstAttribute="trailing" secondItem="drI-8J-JIz" secondAttribute="trailing" id="VKh-7j-zMG"/>
-                            <constraint firstItem="6ZG-iE-u1k" firstAttribute="top" secondItem="KTM-yz-Byi" secondAttribute="bottom" id="ais-Sv-flj"/>
-                            <constraint firstItem="J72-FM-XLY" firstAttribute="top" secondItem="6ZG-iE-u1k" secondAttribute="bottom" id="cuJ-T7-BSc"/>
-                            <constraint firstItem="J72-FM-XLY" firstAttribute="top" secondItem="drI-8J-JIz" secondAttribute="bottom" id="ix1-nY-546"/>
+                            <constraint firstItem="6ZG-iE-u1k" firstAttribute="top" secondItem="gtY-1M-S9z" secondAttribute="bottom" id="ais-Sv-flj"/>
+                            <constraint firstItem="sdc-wf-8WS" firstAttribute="top" secondItem="6ZG-iE-u1k" secondAttribute="bottom" id="cuJ-T7-BSc"/>
+                            <constraint firstItem="sdc-wf-8WS" firstAttribute="top" secondItem="drI-8J-JIz" secondAttribute="bottom" id="ix1-nY-546"/>
                             <constraint firstAttribute="trailing" secondItem="6ZG-iE-u1k" secondAttribute="trailing" id="mH4-1Y-q9z"/>
                             <constraint firstItem="6ZG-iE-u1k" firstAttribute="leading" secondItem="0ca-xt-oF7" secondAttribute="leading" id="wFF-nz-Uh9"/>
                         </constraints>
@@ -91,8 +91,8 @@
             <objects>
                 <viewController id="KZE-9J-pRu" customClass="NewViewController" customModule="Typist_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CFw-Pf-4C3"/>
-                        <viewControllerLayoutGuide type="bottom" id="riq-w9-pEv"/>
+                        <viewControllerLayoutGuide type="top" id="E6H-0K-jBt"/>
+                        <viewControllerLayoutGuide type="bottom" id="i9i-7U-bEw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="suv-cd-6ao">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -116,7 +116,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.95530706639999996" green="0.58254354139999998" blue="0.1262054108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="4OY-Hl-fjI"/>
                                     <constraint firstItem="cCg-xM-tyZ" firstAttribute="top" secondItem="Ech-ah-Bwz" secondAttribute="top" constant="10" id="7QX-wt-MeM"/>
@@ -128,18 +128,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="rTJ-7d-o8T" firstAttribute="top" secondItem="CFw-Pf-4C3" secondAttribute="bottom" id="61Y-Ah-xaX"/>
-                            <constraint firstItem="riq-w9-pEv" firstAttribute="top" secondItem="rTJ-7d-o8T" secondAttribute="bottom" id="LJ3-B8-Pee"/>
-                            <constraint firstItem="riq-w9-pEv" firstAttribute="top" secondItem="Ech-ah-Bwz" secondAttribute="bottom" id="YTV-or-LqI"/>
+                            <constraint firstItem="rTJ-7d-o8T" firstAttribute="top" secondItem="E6H-0K-jBt" secondAttribute="bottom" id="61Y-Ah-xaX"/>
+                            <constraint firstItem="i9i-7U-bEw" firstAttribute="top" secondItem="rTJ-7d-o8T" secondAttribute="bottom" id="LJ3-B8-Pee"/>
                             <constraint firstItem="Ech-ah-Bwz" firstAttribute="leading" secondItem="suv-cd-6ao" secondAttribute="leadingMargin" id="ejJ-fj-x8C"/>
                             <constraint firstItem="rTJ-7d-o8T" firstAttribute="leading" secondItem="suv-cd-6ao" secondAttribute="leading" id="itq-KA-dh9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ech-ah-Bwz" secondAttribute="trailing" id="ojF-OT-Z5c"/>
+                            <constraint firstItem="i9i-7U-bEw" firstAttribute="top" secondItem="Ech-ah-Bwz" secondAttribute="bottom" id="xrx-Qv-ohJ"/>
                             <constraint firstAttribute="trailing" secondItem="rTJ-7d-o8T" secondAttribute="trailing" id="zvL-ga-zbu"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WMy-SQ-0Eu"/>
                     <connections>
-                        <outlet property="bottom" destination="YTV-or-LqI" id="j5R-bm-lFN"/>
+                        <outlet property="bottom" destination="xrx-Qv-ohJ" id="lPx-hk-qC3"/>
                         <outlet property="tableView" destination="rTJ-7d-o8T" id="wP2-q2-dLQ"/>
                         <outlet property="textField" destination="cCg-xM-tyZ" id="ymx-Gq-FkG"/>
                         <outlet property="toolbarView" destination="Ech-ah-Bwz" id="oxN-Vs-GuP"/>
