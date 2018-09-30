@@ -8,37 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		210F3AA556E81B1F5DEF7B92 /* Pods_Typist_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48D088F1D761600F1E1C857 /* Pods_Typist_Demo.framework */; };
-		52823424215D5A73000BD6ED /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823422215D5A73000BD6ED /* ViewConfiguration.swift */; };
-		52823425215D5A73000BD6ED /* ModernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823423215D5A73000BD6ED /* ModernViewController.swift */; };
-		52CE491A215C34B9001583D6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE4919215C34B9001583D6 /* NewViewController.swift */; };
-		7100A1701FD36B4E001098A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7100A16F1FD36B4E001098A4 /* Extensions.swift */; };
+		52823434215F2D6D000BD6ED /* ModernToolbarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823428215F2D6D000BD6ED /* ModernToolbarContainer.swift */; };
+		52823435215F2D6D000BD6ED /* ToolbarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823429215F2D6D000BD6ED /* ToolbarPresenter.swift */; };
+		52823436215F2D6D000BD6ED /* ToolbarActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282342A215F2D6D000BD6ED /* ToolbarActionsView.swift */; };
+		52823438215F2D6D000BD6ED /* StickersParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282342C215F2D6D000BD6ED /* StickersParentView.swift */; };
+		52823439215F2D6D000BD6ED /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282342D215F2D6D000BD6ED /* GalleryView.swift */; };
+		5282343A215F2D6D000BD6ED /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282342E215F2D6D000BD6ED /* ViewConfiguration.swift */; };
+		5282343C215F2D6D000BD6ED /* ModernToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823430215F2D6D000BD6ED /* ModernToolbarController.swift */; };
+		5282343D215F2D6D000BD6ED /* ModernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823431215F2D6D000BD6ED /* ModernViewController.swift */; };
+		5282343E215F2D6D000BD6ED /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52823432215F2D6D000BD6ED /* ToolbarView.swift */; };
+		52B7631C2161450A002A5235 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7631B2161450A002A5235 /* GifView.swift */; };
 		990950321D9928210040D759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990950311D9928210040D759 /* AppDelegate.swift */; };
-		990950341D9928210040D759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990950331D9928210040D759 /* ViewController.swift */; };
-		990950371D9928210040D759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990950351D9928210040D759 /* Main.storyboard */; };
 		990950391D9928210040D759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990950381D9928210040D759 /* Assets.xcassets */; };
-		9909503C1D9928210040D759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9909503A1D9928210040D759 /* LaunchScreen.storyboard */; };
-		995B3BA91DABB30B0027A37E /* Typist.h in Headers */ = {isa = PBXBuildFile; fileRef = 995B3BA71DABB30B0027A37E /* Typist.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		995B3BAD1DABB3160027A37E /* Typist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990950441D9928580040D759 /* Typist.swift */; };
-		995B3BB11DABB46D0027A37E /* Typist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990950441D9928580040D759 /* Typist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52823422215D5A73000BD6ED /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
-		52823423215D5A73000BD6ED /* ModernViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernViewController.swift; sourceTree = "<group>"; };
-		52CE4919215C34B9001583D6 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
-		7100A16F1FD36B4E001098A4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		52823428215F2D6D000BD6ED /* ModernToolbarContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernToolbarContainer.swift; sourceTree = "<group>"; };
+		52823429215F2D6D000BD6ED /* ToolbarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarPresenter.swift; sourceTree = "<group>"; };
+		5282342A215F2D6D000BD6ED /* ToolbarActionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarActionsView.swift; sourceTree = "<group>"; };
+		5282342C215F2D6D000BD6ED /* StickersParentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickersParentView.swift; sourceTree = "<group>"; };
+		5282342D215F2D6D000BD6ED /* GalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		5282342E215F2D6D000BD6ED /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		52823430215F2D6D000BD6ED /* ModernToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernToolbarController.swift; sourceTree = "<group>"; };
+		52823431215F2D6D000BD6ED /* ModernViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernViewController.swift; sourceTree = "<group>"; };
+		52823432215F2D6D000BD6ED /* ToolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		52823442215F2EED000BD6ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B7631B2161450A002A5235 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
 		98B558BD04E872569EB0B2BE /* Pods-Typist-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typist-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Typist-Demo/Pods-Typist-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		9909502E1D9928210040D759 /* Typist-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typist-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		990950311D9928210040D759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		990950331D9928210040D759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		990950361D9928210040D759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		990950381D9928210040D759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9909503B1D9928210040D759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9909503D1D9928210040D759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		990950441D9928580040D759 /* Typist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typist.swift; sourceTree = SOURCE_ROOT; };
 		995B3BA51DABB30B0027A37E /* Typist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Typist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		995B3BA71DABB30B0027A37E /* Typist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Typist.h; sourceTree = "<group>"; };
-		995B3BA81DABB30B0027A37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48D088F1D761600F1E1C857 /* Pods_Typist_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Typist_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8171BC1A617FCA558CE4C1D /* Pods-Typist-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typist-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Typist-Demo/Pods-Typist-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,11 +70,68 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		52639DFB215F32DF00C89ECE /* vm */ = {
+			isa = PBXGroup;
+			children = (
+				52823429215F2D6D000BD6ED /* ToolbarPresenter.swift */,
+				52823430215F2D6D000BD6ED /* ModernToolbarController.swift */,
+				52823428215F2D6D000BD6ED /* ModernToolbarContainer.swift */,
+			);
+			name = vm;
+			sourceTree = "<group>";
+		};
+		52823426215F2D6D000BD6ED /* Modern */ = {
+			isa = PBXGroup;
+			children = (
+				52639DFB215F32DF00C89ECE /* vm */,
+				52823440215F2DCA000BD6ED /* vc */,
+				5282343F215F2D9C000BD6ED /* views */,
+			);
+			path = Modern;
+			sourceTree = "<group>";
+		};
+		5282343F215F2D9C000BD6ED /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5282342E215F2D6D000BD6ED /* ViewConfiguration.swift */,
+				52823432215F2D6D000BD6ED /* ToolbarView.swift */,
+				5282342A215F2D6D000BD6ED /* ToolbarActionsView.swift */,
+				5282342D215F2D6D000BD6ED /* GalleryView.swift */,
+				5282342C215F2D6D000BD6ED /* StickersParentView.swift */,
+				52B7631B2161450A002A5235 /* GifView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		52823440215F2DCA000BD6ED /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				52823431215F2D6D000BD6ED /* ModernViewController.swift */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		52823441215F2E5B000BD6ED /* app */ = {
+			isa = PBXGroup;
+			children = (
+				990950311D9928210040D759 /* AppDelegate.swift */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		52823444215F2EFC000BD6ED /* other */ = {
+			isa = PBXGroup;
+			children = (
+				990950381D9928210040D759 /* Assets.xcassets */,
+				52823442215F2EED000BD6ED /* Info.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		990950251D9928210040D759 = {
 			isa = PBXGroup;
 			children = (
 				990950301D9928210040D759 /* Typist Demo App */,
-				995B3BA61DABB30B0027A37E /* Typist */,
 				9909502F1D9928210040D759 /* Products */,
 				EB2A092920A87939DD3765FE /* Pods */,
 				204D4AC4D4119C0B8F3EAC62 /* Frameworks */,
@@ -93,28 +150,11 @@
 		990950301D9928210040D759 /* Typist Demo App */ = {
 			isa = PBXGroup;
 			children = (
-				990950311D9928210040D759 /* AppDelegate.swift */,
-				52823423215D5A73000BD6ED /* ModernViewController.swift */,
-				52CE4919215C34B9001583D6 /* NewViewController.swift */,
-				52823422215D5A73000BD6ED /* ViewConfiguration.swift */,
-				990950331D9928210040D759 /* ViewController.swift */,
-				7100A16F1FD36B4E001098A4 /* Extensions.swift */,
-				990950351D9928210040D759 /* Main.storyboard */,
-				990950381D9928210040D759 /* Assets.xcassets */,
-				9909503A1D9928210040D759 /* LaunchScreen.storyboard */,
-				9909503D1D9928210040D759 /* Info.plist */,
+				52823426215F2D6D000BD6ED /* Modern */,
+				52823444215F2EFC000BD6ED /* other */,
+				52823441215F2E5B000BD6ED /* app */,
 			);
 			name = "Typist Demo App";
-			path = Typist;
-			sourceTree = "<group>";
-		};
-		995B3BA61DABB30B0027A37E /* Typist */ = {
-			isa = PBXGroup;
-			children = (
-				990950441D9928580040D759 /* Typist.swift */,
-				995B3BA71DABB30B0027A37E /* Typist.h */,
-				995B3BA81DABB30B0027A37E /* Info.plist */,
-			);
 			path = Typist;
 			sourceTree = "<group>";
 		};
@@ -134,7 +174,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				995B3BA91DABB30B0027A37E /* Typist.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,11 +224,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Toto Tvalavadze";
 				TargetAttributes = {
 					9909502D1D9928210040D759 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WK8C7HUHMZ;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -224,9 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9909503C1D9928210040D759 /* LaunchScreen.storyboard in Resources */,
 				990950391D9928210040D759 /* Assets.xcassets in Resources */,
-				990950371D9928210040D759 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7100A1701FD36B4E001098A4 /* Extensions.swift in Sources */,
-				995B3BB11DABB46D0027A37E /* Typist.swift in Sources */,
-				52CE491A215C34B9001583D6 /* NewViewController.swift in Sources */,
-				52823424215D5A73000BD6ED /* ViewConfiguration.swift in Sources */,
-				52823425215D5A73000BD6ED /* ModernViewController.swift in Sources */,
-				990950341D9928210040D759 /* ViewController.swift in Sources */,
+				52823436215F2D6D000BD6ED /* ToolbarActionsView.swift in Sources */,
+				52823439215F2D6D000BD6ED /* GalleryView.swift in Sources */,
+				5282343A215F2D6D000BD6ED /* ViewConfiguration.swift in Sources */,
+				5282343E215F2D6D000BD6ED /* ToolbarView.swift in Sources */,
+				52823434215F2D6D000BD6ED /* ModernToolbarContainer.swift in Sources */,
+				5282343C215F2D6D000BD6ED /* ModernToolbarController.swift in Sources */,
+				52823435215F2D6D000BD6ED /* ToolbarPresenter.swift in Sources */,
+				52823438215F2D6D000BD6ED /* StickersParentView.swift in Sources */,
+				5282343D215F2D6D000BD6ED /* ModernViewController.swift in Sources */,
+				52B7631C2161450A002A5235 /* GifView.swift in Sources */,
 				990950321D9928210040D759 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,30 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				995B3BAD1DABB3160027A37E /* Typist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		990950351D9928210040D759 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				990950361D9928210040D759 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9909503A1D9928210040D759 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9909503B1D9928210040D759 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9909503E1D9928210040D759 /* Debug */ = {
@@ -437,7 +459,8 @@
 			baseConfigurationReference = 98B558BD04E872569EB0B2BE /* Pods-Typist-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Typist/Info.plist;
+				DEVELOPMENT_TEAM = WK8C7HUHMZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Typist/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tototvalavadze.Typist;
@@ -452,7 +475,8 @@
 			baseConfigurationReference = F8171BC1A617FCA558CE4C1D /* Pods-Typist-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Typist/Info.plist;
+				DEVELOPMENT_TEAM = WK8C7HUHMZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Typist/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tototvalavadze.Typist;
